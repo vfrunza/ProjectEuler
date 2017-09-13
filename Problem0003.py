@@ -12,7 +12,7 @@ import math
 from timeit import default_timer as timer
 
 def main():
-    loops = 100
+    loops = 1
 
     start = timer()
     for x in range (0, loops):
