@@ -6,30 +6,28 @@ All of the solutions are timed, with the time of the original version I wrote (u
 
 All of the programs have the same structure, with timings given by timeit
 
-'''
-Problem 0xxx - Title
-The problem statment from Project Euler
+    Problem 0xxx - Title
+    The problem statment from Project Euler
 
-Answer: 
-First Version Time: xx.xxxx Seconds Per xxx iterations
-Second Version Time: xx.xxxx Seconds Per xxx iterations
+    Answer: 
+    First Version Time: xx.xxxx Seconds Per xxx iterations
+    Second Version Time: xx.xxxx Seconds Per xxx iterations
 
-from timeit import default_timer as timer
+    from timeit import default_timer as timer
 
-def main():
-    loops = 1
+    def main():
+        loops = 1
 
-    start = timer()
-    for x in range (0, loops):
+        start = timer()
+        for x in range (0, loops):
 
-        result = problem()
+            result = problem()
 
-    end = timer()
+        end = timer()
 
-    print(result)
-    print(str((end - start)) + " seconds") 
+        print(result)
+        print(str((end - start)) + " seconds") 
 
-def problem():
+    def problem():
 
-main()
-'''
+    main()
