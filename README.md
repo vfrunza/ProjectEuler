@@ -6,12 +6,14 @@ All of the solutions are timed, with the time of the original version I wrote (u
 
 All of the programs have the same structure, with timings given by timeit
 
-    Problem 0xxx - Title
-    The problem statment from Project Euler
+    # Problem 0xxx - Title
+    #===============================================================
+    # The problem statment from Project Euler
 
-    Answer: 
-    First Version Time: xx.xxxx Seconds Per xxx iterations
-    Second Version Time: xx.xxxx Seconds Per xxx iterations
+    # Answer: 
+    # First Version Time: xx.xxxx Seconds Per xxx iterations
+    # Second Version Time: xx.xxxx Seconds Per xxx iterations
+    #===============================================================
 
     from timeit import default_timer as timer
 
