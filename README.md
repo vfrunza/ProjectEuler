@@ -6,6 +6,7 @@ All of the solutions are timed, with the time of the original version I wrote (u
 
 All of the programs have the same structure, with timings given by timeit
 
+'''
 Problem 0xxx - Title
 The problem statment from Project Euler
 
@@ -31,3 +32,4 @@ def main():
 def problem():
 
 main()
+'''
