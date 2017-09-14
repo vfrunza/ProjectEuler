@@ -57,8 +57,4 @@ def problem():
             return triangular(i)
         i += 1
 
-
-
-
-
 main()
