@@ -1,4 +1,4 @@
-#Problem 0008 - LLargest Product in a Series
+#Problem 0008 - Largest Product in a Series
 #===============================================================================
 #By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 
