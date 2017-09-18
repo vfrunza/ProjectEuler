@@ -17,15 +17,15 @@
 
 # What is the value of the first triangle number to have over five hundred divisors?
 
-#Answer: 
-#First Version Time:  Seconds Per 100 iterations
-#Second Version Time:  Seconds Per 100 iterations
+#Answer: 76576500
+#First Version Time: 0.5020 Seconds Per 100 iterations
 #===============================================================================
 import math
+from functools import reduce
 from timeit import default_timer as timer
 
 def main():
-    loops = 1
+    loops = 100
 
     start = timer()
     for x in range (0, loops):
@@ -36,25 +36,54 @@ def main():
     print(str((end - start)) + " seconds") 
 
 def triangular(n):
-    return sum(list(range(1, n + 1)))
+    return int((n * (n + 1))/2)
 
-def factorize(n):
-    factors = []
-    for i in range(math.floor(math.sqrt(n)), 1, -1):
-        if n % i == 0:
+def pr_factorize(n, factors):
+    if factors == None:
+        factors = []
+    
+    if n % 2 == 0:
+        factors.append(2)
+        return pr_factorize(n / 2, factors)
+
+    for i in range(3, int(math.sqrt(n)) + 1, 2):
+        if not n % i:
             factors.append(i)
-    return factors
+            break
+            
+    else:
+        factors.append(int(n))
+        return factors
+    return pr_factorize(n / i, factors)
+
+def count_divisors(pr_factors):
+    powers = []
+    counter = 0
+    current = 0
+    cursor = pr_factors[0]
+
+    for item in pr_factors:
+        if item == cursor:
+            counter += 1
+        
+        else:
+            powers.append(counter + 1)
+            counter = 1
+            cursor = item
+    powers.append(counter + 1)
+    return powers
 
 def problem():
-    i = 1000000000
+    i = 2
 
     while True:
         tri_num = triangular(i)
-        factors = factorize(tri_num)
-        print(len(factors))
+        factors = pr_factorize(tri_num, [])
+        exp_list = count_divisors(factors)
+        divisors = reduce(lambda x, y: x*y, count_divisors(factors))
 
-        if len(factorize(triangular(i))) == 500:
-            return triangular(i)
+        if divisors > 500:
+            return tri_num
         i += 1
 
 main()
