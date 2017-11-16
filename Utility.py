@@ -1,3 +1,10 @@
+#Utility Library for Project Euler
+#===============================================================================
+#Below is a list of a variety of functions and classes that are used by many 
+#problems in project euler.
+#===============================================================================
+
+#returns a list of factors of n.
 def factorize(n):
     factors = []
     for i in range(n, 0, -1):
@@ -6,6 +13,7 @@ def factorize(n):
                 factors.append(i)
     return factors
 
+#returns a list of prime factors of n
 def pr_factorize(n, factors):
     if factors == None:
         factors = []
@@ -24,6 +32,7 @@ def pr_factorize(n, factors):
         return factors
     return pr_factorize(n / i, factors)
 
+#tests if n is prime, returns true/false
 def prime_test(n):
     if n <= 3:
         return n >= 2

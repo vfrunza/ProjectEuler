@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>15582b69-7d27-44da-9598-2f269a239fbd</TargetProject>
+    <FriendlyName>Project-Euler</FriendlyName>
+  </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\Victo\AppData\Local\Temp\Project-Euler_20171115.vsp</Filename>
+    </Report>
+    <Report>
+      <Filename>C:\Users\Victo\AppData\Local\Temp\Project-Euler_20171115(1).vsp</Filename>
+    </Report>
+  </Reports>
+</ProfilingTarget>
