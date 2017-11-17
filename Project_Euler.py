@@ -4,10 +4,10 @@
 #===============================================================================
 
 from timeit import default_timer as timer
-from p0004 import problem
+from p0007 import problem
 
 def main():
-    loops = 10
+    loops = 1000
 
     start = timer()
     for x in range (0, loops):

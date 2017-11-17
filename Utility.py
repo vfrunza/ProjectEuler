@@ -44,3 +44,18 @@ def prime_test(n):
         if n % i == 0 or n % (i + 2) == 0:
             return False
     return True
+
+#Description: Finds the GCD between any two numbers.
+#Returns: int Greatest Common Denominator
+def gcd(a, b):
+    if b == 0:
+        return a
+    else:
+        return gcd(b, a % b)
+
+#===LCM==========================================================================
+#Description: Returns the lowest common multipule between any two numbers.
+#Result: int LCM
+#================================================================================
+def lcm(a, b):
+    return (a * b)//gcd(a, b)
