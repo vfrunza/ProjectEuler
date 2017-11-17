@@ -4,6 +4,8 @@
 #problems in project euler.
 #===============================================================================
 
+import math
+
 #returns a list of factors of n.
 def factorize(n):
     factors = []

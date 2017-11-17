@@ -29,6 +29,12 @@
     <Compile Include="p0002.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="p0003.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="p0004.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Project_Euler.py" />
     <Compile Include="Utility.py">
       <SubType>Code</SubType>
