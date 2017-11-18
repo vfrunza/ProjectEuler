@@ -10,3 +10,8 @@ Below is the execution time for each problem in milliseconds. Timer is used in p
 | --- | --- |
 | 1. Multiples of 3 and 5 | 0.082 ms | 0.018 ms |
 | Content Cell | Content Cell |
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
