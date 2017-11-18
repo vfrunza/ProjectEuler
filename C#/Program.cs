@@ -11,19 +11,20 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            int loops = 100000;
+            int loops = 1000;
+            int counter = 0;
             int result = 0;
 
             System.Diagnostics.Stopwatch watch = System.Diagnostics.Stopwatch.StartNew();
-            while (loops != 1)
+            while (counter != loops)
             {
                 result = P0001.Problem();
-                loops--;
+                counter++;
             }
             watch.Stop();
-            double elapsedMs = Convert.ToDouble(watch.ElapsedMilliseconds) / (1000.0);
+            double elapsedMs = Convert.ToDouble(watch.ElapsedMilliseconds) / Convert.ToDouble(loops);
 
-            Console.WriteLine("{0} seconds | {1}", elapsedMs, result);
+            Console.WriteLine("{0} milliseconds | {1}", elapsedMs, result);
 
             //UtilityLibrary.Utility.Pause();
         }
