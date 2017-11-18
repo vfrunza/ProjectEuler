@@ -5,7 +5,6 @@
 #Find the sum of all the multiples of 3 or 5 below 1000.
 
 #Answer: 233168
-#Time: 0.8832 Seconds Per 10,000 iterations
 #===============================================================================
 
 def problem():

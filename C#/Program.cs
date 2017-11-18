@@ -18,7 +18,7 @@ namespace ProjectEuler
             System.Diagnostics.Stopwatch watch = System.Diagnostics.Stopwatch.StartNew();
             while (counter != loops)
             {
-                result = P0001.Problem();
+                result = P0002.Problem();
                 counter++;
             }
             watch.Stop();

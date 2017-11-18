@@ -9,9 +9,4 @@ Below is the execution time for each problem in milliseconds. Timer is used in p
 | Problem | Python 3 | C# | 
 | --- | --- |  --- | 
 | 1. Multiples of 3 and 5 | 0.082 ms | 0.018 ms | 
-| 1. Multiples of 3 and 5 | 0.082 ms | 0.018 ms | 
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 2. Even Fibonacci Numbers | 0.008 ms | 0.002 ms | 
