@@ -6,9 +6,9 @@ All of the solutions are timed, with the time of the original version I wrote (u
 
 Below is the execution time for each problem in milliseconds. Timer is used in python and stopwatch is used in C#. each program is run in at least 100 loops, and then the time is divided by the number of loops to get the time of one instance.
 
-| Problem | Python 3 | C# |
-| --- | --- |
-| 1. Multiples of 3 and 5 | 0.082 ms | 0.018 ms |
+| Problem | Python 3 | C# | 
+| --- | --- | 
+| 1. Multiples of 3 and 5 | 0.082 ms | 0.018 ms | 
 | Content Cell | Content Cell |
 
 | First Header  | Second Header |
