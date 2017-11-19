@@ -10,8 +10,6 @@ namespace ProjectEuler
     {
         public static bool PrimeTest(int n)
         {
-            double MAXSearch = Math.Sqrt(n) + 1;
-            int counter = 5;
             if (n <= 3)
             {
                 return n >= 2;
@@ -20,9 +18,9 @@ namespace ProjectEuler
             {
                 return false;
             }
-            while (counter < MAXSearch)
+            for (int i = 5; i <= Convert.ToInt32(Math.Sqrt(n)) + 1; i += 6)
             {
-                if (n % counter == 0 || n % (counter + 2) == 0)
+                if (n % i == 0 || n % (i + 2) == 0)
                 {
                     return false;
                 }

@@ -5,26 +5,25 @@
 #Find the largest palindrome made from the product of two 3-digit numbers.
 
 #Answer: 906609
-#Time: 176.2876 Seconds Per 1,000 iterations
 #===============================================================================
 
 def problem():
     largest = 0
-    for x in range(999, 450, -1):
-        for y in range(999, 100, -1):
+    for x in range(999, 100, -1):
+        for y in range(x, 100, -1):
 
-            current = str(x * y)
+            currentInt = x * y
+            current = str(currentInt)
             #print(int(current), largest)
-            if int(current) > largest:
+            if currentInt > largest:
                 if len(current) == 5:
                     if current[0] == current[4] and current[1] == current[3]:
-                        if int(current) > largest:
-                            largest = int(current)
-
+                        if currentInt > largest:
+                            largest = currentInt
                 else:
                     if current[0] == current[5] and current[1] == current[4] and current[2] == current[3]:
-                        if int(current) > largest:
-                            largest = int(current)
+                        if currentInt > largest:
+                            largest = currentInt
 
     return largest
 

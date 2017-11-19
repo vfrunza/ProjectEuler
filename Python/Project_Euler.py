@@ -4,7 +4,7 @@
 #===============================================================================
 
 from timeit import default_timer as timer
-from p0003 import problem
+from p0004 import problem
 
 def main():
     loops = 100

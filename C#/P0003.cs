@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 //What is the largest prime factor of 600851475143
 
 //Answer: 6857
-//Time: 131.0388 Seconds Per 100 iterations
 //===============================================================================
 
 namespace ProjectEuler
@@ -22,8 +21,9 @@ namespace ProjectEuler
         {
             long n = 600851475143;
 
-            for (int i = Convert.ToInt32(Math.Sqrt(n)) - 1; i > 2; i -= 2)
+            for (int i = Convert.ToInt32(Math.Sqrt(n)) + 1; i > 2; i -= 2)
             {
+                //Console.WriteLine("Testing {0}", i);
                 if (Utility.PrimeTest(i))
                 {
                     if (n % i == 0)
