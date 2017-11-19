@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,14 +12,14 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            int loops = 1000;
+            int loops = 100;
             int counter = 0;
             int result = 0;
 
             System.Diagnostics.Stopwatch watch = System.Diagnostics.Stopwatch.StartNew();
             while (counter != loops)
             {
-                result = P0002.Problem();
+                result = P0003.Problem();
                 counter++;
             }
             watch.Stop();
@@ -26,7 +27,7 @@ namespace ProjectEuler
 
             Console.WriteLine("{0} milliseconds | {1}", elapsedMs, result);
 
-            //UtilityLibrary.Utility.Pause();
+            UtilityLibrary.Utility.Pause();
         }
     }
 }

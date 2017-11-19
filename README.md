@@ -6,7 +6,9 @@ All of the solutions are timed, with the time of the original version I wrote (u
 
 Below is the execution time for each problem in milliseconds. Timer is used in python and stopwatch is used in C#. each program is run in at least 100 loops, and then the time is divided by the number of loops to get the time of one instance.
 
-| Problem | Python 3 | C# | 
+C# is run with the Visual Studio Microsoft Compiler and Python is run in WSL bash using python3.
+
+| Problem | Python | C# |
 | --- | --- |  --- | 
 | 1. Multiples of 3 and 5 | 0.082 ms | 0.018 ms | 
 | 2. Even Fibonacci Numbers | 0.008 ms | 0.002 ms | 
