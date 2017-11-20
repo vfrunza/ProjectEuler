@@ -12,7 +12,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            int loops = 1;
+            int loops = 100;
             int counter = 0;
             int result = 0;
 

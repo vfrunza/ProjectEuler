@@ -7,7 +7,7 @@ from timeit import default_timer as timer
 from p0005 import problem
 
 def main():
-    loops = 1
+    loops = 1000
 
     start = timer()
     for x in range (0, loops):

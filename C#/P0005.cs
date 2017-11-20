@@ -17,13 +17,7 @@ namespace ProjectEuler
     {
         public static int Problem()
         {
-            List<int> MultipuleList = new List<int>();
-            //{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19};
-
-            MultipuleList.AddRange(Enumerable.Range(30,33));
-
-
-            return MultipuleList.Aggregate((x, y) => Utility.LCM(x, y));
+            return Utility.LCM(Utility.LCM(Utility.LCM(Utility.LCM(Utility.LCM(Utility.LCM(Utility.LCM(Utility.LCM(Utility.LCM(20, 19), 18), 17), 16), 15), 14), 13), 12), 11);
         }
     }
 }
