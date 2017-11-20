@@ -12,14 +12,14 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            int loops = 100;
+            int loops = 1;
             int counter = 0;
             int result = 0;
 
             System.Diagnostics.Stopwatch watch = System.Diagnostics.Stopwatch.StartNew();
             while (counter != loops)
             {
-                result = P0004.Problem();
+                result = P0005.Problem();
                 counter++;
             }
             watch.Stop();

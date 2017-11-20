@@ -27,5 +27,39 @@ namespace ProjectEuler
             }
             return true;
         }
+
+        public static List<int> Factorize(int n)
+        {
+            List<int> Factors = new List<int>();
+
+            for (int i = n - 1; i > 0; i--)
+            {
+                if (n % i == 0)
+                {
+                    if (!Factors.Contains(i))
+                    {
+                        Factors.Add(i);
+                    }
+                }
+            }
+            return Factors;
+        }
+
+        public static int GCD(int a, int b)
+        {
+            if (b == 0)
+            {
+                return a;
+            }
+            else
+            {
+                return GCD(b, a % b);
+            }
+        }
+
+        public static int LCM(int a, int b)
+        {
+            return (a * b) / GCD(a, b);
+        }
     }
 }
