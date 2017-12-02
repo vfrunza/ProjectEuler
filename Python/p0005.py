@@ -14,5 +14,4 @@ def lcmm(multipule_list):
     return reduce(lambda x, y: Utility.lcm(x, y), multipule_list)
 
 def problem():
-    multi = [20,19,18,17,16,15,14,13,12,11]
     return lcmm([20,19,18,17,16,15,14,13,12,11])
