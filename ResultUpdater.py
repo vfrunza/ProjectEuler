@@ -24,7 +24,7 @@ for row in range(0, len(Results)):
         
 if found == False:
     if language == "1":
-        Results.append([problem, eng_notate(float(time)) + "s", "", "", ""])
+        Results.append([problem, eng_notate(float(time)) + "s", "---", "---", "---"])
 
 
 File.seek(0)
@@ -36,7 +36,7 @@ for row in Results:
 ReadFile.write(Instructions) 
 
 for row in Results:
-    ReadFile.write("| " + " | ".join(row) + " |\n")
+    ReadFile.write("| " + " | ".join(row) + " | \n")
 
 
 
