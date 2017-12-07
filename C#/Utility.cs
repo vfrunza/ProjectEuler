@@ -61,5 +61,27 @@ namespace ProjectEuler
         {
             return Math.Abs(a * b) / GCD(a, b);
         }
+
+        public static int SumOfSquares(int limit)
+        {
+            int total = 0;
+
+            for (int i = 1; i <= limit; i++)
+            {
+                total += (int)Math.Pow(i, 2);
+            }
+            return total;
+        }
+         public static int SquareOfSum(int limit)
+        {
+            int total = 0;
+
+            for (int i = 1; i <= limit; i++)
+            {
+                total += i;
+            }
+            return (int)Math.Pow(total, 2);
+        }
+
     }
 }
