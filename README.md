@@ -9,9 +9,9 @@ Below is the execution time for each problem in milliseconds. Timer is used in p
 C# is run with the Visual Studio Microsoft Compiler and Python is run in WSL bash using python3.
 
 | Problem | Python | C# | C++ | Rust |
-| 1. Multiples of 3 and 5 | 121us | 0.018 | --- | --- |
-| 2. Even Fibonacci Numbers | 12.3us | 0.002 | --- | --- |
-| 3. Largest Prime Factor | 1.91s | 229.3 | --- | --- |
-| 4. Largest Palindrome Product | 139ms | 17.99 | --- | --- |
-| 5. Smallest Multiple | 11.0us | 0.001 | --- | --- |
-| 6. Sum Square Difference | 30.8us |  |  |  |
+| 1. Multiples of 3 and 5 | 121us | 0.018 | --- | --- | 
+| 2. Even Fibonacci Numbers | 12.3us | 0.002 | --- | --- | 
+| 3. Largest Prime Factor | 1.91s | 229.3 | --- | --- | 
+| 4. Largest Palindrome Product | 139ms | 17.99 | --- | --- | 
+| 5. Smallest Multiple | 11.0us | 0.001 | --- | --- | 
+| 6. Sum Square Difference | 33.4us | --- | --- | --- | 
