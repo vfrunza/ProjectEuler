@@ -24,4 +24,4 @@ def problem():
         if i & 1:
             fib.remove(i)
 
-    return sum(fib)
+    return sum(fib), '"2. Even Fibonacci Numbers"'

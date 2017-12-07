@@ -25,5 +25,5 @@ def square_of_sum(limit):
 
 def problem():
     limit = 100
-    return square_of_sum(limit) - sum_of_squares(limit)
+    return square_of_sum(limit) - sum_of_squares(limit), '"6. Sum Square Difference"'
 

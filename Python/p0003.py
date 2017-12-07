@@ -17,5 +17,5 @@ def problem():
     for i in range(int(sqrt(n))-1, 2, -2):
         if prime_test(i):
             if n % i == 0:
-                return i
+                return i, '"3. Largest Prime Factor"'
 

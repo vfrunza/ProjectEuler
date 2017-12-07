@@ -29,4 +29,4 @@ def problem():
 
         counter += 1
         
-    return sum(multiples)
+    return sum(multiples), '"1. Multiples of 3 and 5"'
