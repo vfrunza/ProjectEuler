@@ -11,7 +11,6 @@
 #Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 #Answer: 25164150
-#Time: 3.4822 Seconds Per 100,000 iterations
 #===============================================================================
 
 def sum_of_squares(limit):

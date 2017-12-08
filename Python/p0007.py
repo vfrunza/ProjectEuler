@@ -5,8 +5,6 @@
 #What is the 10 001st prime number?
 
 #Answer: 104743
-#First Version Time: 15.6768 Seconds Per 100 iterations
-#Second Version Time:
 #===============================================================================
 from Utility import prime_test
 
