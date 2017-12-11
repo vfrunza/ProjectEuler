@@ -10,7 +10,7 @@ from EngNotation import eng_notate
 from p0006 import problem
 
 def main():
-    loops = 1
+    loops = 100
 
     start = timer()
     for x in range (0, loops):

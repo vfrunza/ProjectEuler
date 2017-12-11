@@ -23,7 +23,7 @@ def eng_notate(x, d=3, suff=True, neg_ok=False):
              or with suffix
     """
     # Practical component suffixes
-    _SUFFIX = [" p", " n", " u", " m", " ", " k", " M", " G"]
+    _SUFFIX = [" p", " n", " μ", " m", " ", " k", " M", " G"]
     # Offset to unit multiplier (no suffix)
 
     _UNIT_OFFSET = 4

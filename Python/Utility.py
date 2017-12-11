@@ -16,8 +16,6 @@ def save(problem, time):
     for line in result:
         results.append(line.strip("\n").split(","))
 
-    print(results)
-
     for line in results:
         if line[0] == problem:
             line[1] = time
@@ -27,7 +25,6 @@ def save(problem, time):
     if updated == False:
         results.append([problem, time])
 
-    print(results)
     result_file.seek(0)
     result_file.truncate()
 
