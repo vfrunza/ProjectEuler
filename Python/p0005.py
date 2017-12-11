@@ -5,7 +5,6 @@
 #What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
 #Answer: 232792560
-#Time: 128.7871 Seconds Per 1,000,000 iterations
 #===============================================================================
 from functools import reduce
 import Utility
@@ -14,4 +13,4 @@ def lcmm(multipule_list):
     return reduce(lambda x, y: Utility.lcm(x, y), multipule_list)
 
 def problem():
-    return lcmm([20,19,18,17,16,15,14,13,12,11]), '"5. Smallest Multiple"'
+    return lcmm([20,19,18,17,16,15,14,13,12,11]), "5"

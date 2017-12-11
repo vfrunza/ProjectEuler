@@ -7,7 +7,7 @@ from timeit import default_timer as timer
 from Utility import save
 from EngNotation import eng_notate
 
-from p0003 import problem
+from p0006 import problem
 
 def main():
     loops = 1

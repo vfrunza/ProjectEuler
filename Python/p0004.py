@@ -25,5 +25,5 @@ def problem():
                         if currentInt > largest:
                             largest = currentInt
 
-    return largest, '"4. Largest Palindrome Product"'
+    return largest, "4"
 
