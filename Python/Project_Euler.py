@@ -4,21 +4,22 @@
 #===============================================================================
 
 from timeit import default_timer as timer
-import subprocess
-import os
-from p0006 import problem
+from Utility import save
+from EngNotation import eng_notate
+
+from p0003 import problem
 
 def main():
-    loops = 10
+    loops = 1
 
     start = timer()
     for x in range (0, loops):
-        result, problem_name = problem()
+        result, problem_num = problem()
     end = timer()
 
-    print(str((end - start) / loops) + " seconds | " + str(result))
+    time = eng_notate(float((end - start) / loops)) + "s"
+    print(time + " | " + str(result))
 
-    command = 'cd ..; python3 ResultUpdater.py 1 ' + problem_name + ' ' + str((end - start) / loops)
-    subprocess.call(command, shell=True)
+    save(problem_num, time)
 
 main()

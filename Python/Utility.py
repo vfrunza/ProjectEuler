@@ -6,6 +6,36 @@
 
 import math
 
+def save(problem, time):
+    result_file = open("results.csv", "r+")
+    result = result_file.readlines()
+
+    results = []
+    updated = False
+
+    for line in result:
+        results.append(line.strip("\n").split(","))
+
+    print(results)
+
+    for line in results:
+        if line[0] == problem:
+            line[1] = time
+            updated = True
+            break
+
+    if updated == False:
+        results.append([problem, time])
+
+    print(results)
+    result_file.seek(0)
+    result_file.truncate()
+
+    for line in results:
+        result_file.write(str(line[0]) + "," + str(line[1]) + "\n")
+    
+    result_file.close()
+
 #returns a list of factors of n.
 def factorize(n):
     factors = []
