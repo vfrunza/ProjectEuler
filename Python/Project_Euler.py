@@ -17,7 +17,7 @@ def main():
         result, problem_num = problem()
     end = timer()
 
-    time = eng_notate(float((end - start) / loops)) + "s"
+    time = eng_notate(float(end - start) / loops) + "s"
     print(time + " | " + str(result))
 
     save(problem_num, time)

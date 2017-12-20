@@ -8,11 +8,11 @@ C# is run with the Visual Studio Microsoft Compiler and Python is run in WSL bas
 
 | Title | C | C++ | C# | D | Java | JavaScript | Python 3 | Rust | R |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1. Multiples of 3 and 5 |   |   | 19.5 μs |   |   |   | 122 μs |   |   |
-| 2. Even Fibonacci numbers |   |   | 1.2 μs |   |   |   | 17.8 μs |   |   |
-| 3. Largest prime factor |   |   | 95.8 ms |   |   |   | 1.87 s |   |   |
-| 4. Largest palindrome product |   |   | 13.5 ms |   |   |   | 119 ms |   |   |
-| 5. Smallest multiple |   |   | 0.0 s |   |   |   | 9.65 μs |   |   |
+| 1. Multiples of 3 and 5 |   |   | 30.0 μs |   |   |   | 120 μs |   |   |
+| 2. Even Fibonacci numbers |   |   | 20.0 μs |   |   |   | 11.9 μs |   |   |
+| 3. Largest prime factor |   |   | 94.2 ms |   |   |   | 1.90 s |   |   |
+| 4. Largest palindrome product |   |   | 14.0 ms |   |   |   | 124 ms |   |   |
+| 5. Smallest multiple |   |   | 0.0 s |   |   |   | 9.18 μs |   |   |
 | 6. Sum square difference |   |   | 10.0 μs |   |   |   | 30.2 μs |   |   |
 | 7. 10001st prime |   |   |   |   |   |   |   |   |   |
 | 8. Largest product in a series |   |   |   |   |   |   |   |   |   |
