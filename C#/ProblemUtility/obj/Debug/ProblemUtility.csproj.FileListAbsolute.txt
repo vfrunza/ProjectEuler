@@ -1,0 +1,11 @@
+E:\Repositories\ProjectEuler\ProblemUtility\bin\Debug\ProblemUtility.dll
+E:\Repositories\ProjectEuler\ProblemUtility\bin\Debug\ProblemUtility.pdb
+E:\Repositories\ProjectEuler\ProblemUtility\obj\Debug\ProblemUtility.csproj.CoreCompileInputs.cache
+E:\Repositories\ProjectEuler\ProblemUtility\obj\Debug\ProblemUtility.dll
+E:\Repositories\ProjectEuler\ProblemUtility\obj\Debug\ProblemUtility.pdb
+E:\Repositories\ProjectEuler\C#\ProblemUtility\bin\Debug\ProblemUtility.dll
+E:\Repositories\ProjectEuler\C#\ProblemUtility\bin\Debug\ProblemUtility.pdb
+E:\Repositories\ProjectEuler\C#\ProblemUtility\obj\Debug\ProblemUtility.csprojAssemblyReference.cache
+E:\Repositories\ProjectEuler\C#\ProblemUtility\obj\Debug\ProblemUtility.csproj.CoreCompileInputs.cache
+E:\Repositories\ProjectEuler\C#\ProblemUtility\obj\Debug\ProblemUtility.dll
+E:\Repositories\ProjectEuler\C#\ProblemUtility\obj\Debug\ProblemUtility.pdb

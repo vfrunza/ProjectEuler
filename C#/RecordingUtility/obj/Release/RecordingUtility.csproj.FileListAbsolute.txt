@@ -1,0 +1,12 @@
+E:\Repositories\ProjectEuler\RecordingUtility\bin\Release\RecordingUtility.dll
+E:\Repositories\ProjectEuler\RecordingUtility\bin\Release\RecordingUtility.pdb
+E:\Repositories\ProjectEuler\RecordingUtility\obj\Release\RecordingUtility.csprojAssemblyReference.cache
+E:\Repositories\ProjectEuler\RecordingUtility\obj\Release\RecordingUtility.csproj.CoreCompileInputs.cache
+E:\Repositories\ProjectEuler\RecordingUtility\obj\Release\RecordingUtility.dll
+E:\Repositories\ProjectEuler\RecordingUtility\obj\Release\RecordingUtility.pdb
+E:\Repositories\ProjectEuler\C#\RecordingUtility\bin\Release\RecordingUtility.dll
+E:\Repositories\ProjectEuler\C#\RecordingUtility\bin\Release\RecordingUtility.pdb
+E:\Repositories\ProjectEuler\C#\RecordingUtility\obj\Release\RecordingUtility.csprojAssemblyReference.cache
+E:\Repositories\ProjectEuler\C#\RecordingUtility\obj\Release\RecordingUtility.csproj.CoreCompileInputs.cache
+E:\Repositories\ProjectEuler\C#\RecordingUtility\obj\Release\RecordingUtility.dll
+E:\Repositories\ProjectEuler\C#\RecordingUtility\obj\Release\RecordingUtility.pdb

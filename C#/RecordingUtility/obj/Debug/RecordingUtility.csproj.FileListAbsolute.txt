@@ -1,0 +1,11 @@
+E:\Repositories\ProjectEuler\RecordingUtility\bin\Debug\RecordingUtility.dll
+E:\Repositories\ProjectEuler\RecordingUtility\bin\Debug\RecordingUtility.pdb
+E:\Repositories\ProjectEuler\RecordingUtility\obj\Debug\RecordingUtility.csproj.CoreCompileInputs.cache
+E:\Repositories\ProjectEuler\RecordingUtility\obj\Debug\RecordingUtility.dll
+E:\Repositories\ProjectEuler\RecordingUtility\obj\Debug\RecordingUtility.pdb
+E:\Repositories\ProjectEuler\C#\RecordingUtility\bin\Debug\RecordingUtility.dll
+E:\Repositories\ProjectEuler\C#\RecordingUtility\bin\Debug\RecordingUtility.pdb
+E:\Repositories\ProjectEuler\C#\RecordingUtility\obj\Debug\RecordingUtility.csprojAssemblyReference.cache
+E:\Repositories\ProjectEuler\C#\RecordingUtility\obj\Debug\RecordingUtility.csproj.CoreCompileInputs.cache
+E:\Repositories\ProjectEuler\C#\RecordingUtility\obj\Debug\RecordingUtility.dll
+E:\Repositories\ProjectEuler\C#\RecordingUtility\obj\Debug\RecordingUtility.pdb
