@@ -5,9 +5,9 @@ Each problem is solved in the most obviosu way first and timed. Any improvments 
 
 # Results
 
-| Title | First Attempt(ms) | Last Attempt(ms) |
-| --- | --- | --- |
-| 1. Multiples of 3 and 5 |  |  |
+| Title | First Attempt | Last Attempt | Multithreaded |
+| --- | --- | --- | --- |
+| 1. Multiples of 3 and 5 | 4.87µs | 12.00ns | no |
 | 2. Even Fibonacci numbers |  |  |
 | 3. Largest prime factor |  |  |
 | 4. Largest palindrome product |  |  |
